@@ -30,12 +30,16 @@ nav{
 }
 
 nav ul{
-    float: center;
+    position: relative;
     list-style: none;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    display: flex;
 }
 
 nav ul li{
-    display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
