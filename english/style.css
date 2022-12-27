@@ -6,7 +6,7 @@
 }
 body{
     background-color: #D9E8F5;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
 }
 
 main{
@@ -40,17 +40,9 @@ nav ul li{
     margin: 0 5px;
 }
 
-label{
-    padding: 0 50px;
-    line-height: 80px;
-}
-
-nav ul li a img{
-    padding-inline: 2px;
-}
-
 img.marker{
-    width: 200px;
+    width: 21vw;
+    max-width: 210px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -61,14 +53,15 @@ h2{
     color:#91BED4;
 }
 
-h1{
-    display: inline-block;
-    justify-content: center;
-    border-radius: 5px;
-    padding: 3px 3px 3px 3px;
-    background: #e4f1f8;
-    width: max-content;
+h1.title{
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    border-radius: 10px;
+    padding: 3px 3px 3px 3px;
+    background-color: #e4f1f8;
+    font-size: clamp(10px,3.5vw,30px);
+    width: max-content;
 }
 
 p{
