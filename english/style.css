@@ -57,6 +57,10 @@ h2{
     color:#91BED4;
 }
 
+h2{
+    font-size: clamp(5px,3vw,25px);
+}
+
 h1.title{
     margin-left: auto;
     margin-right: auto;
@@ -70,6 +74,7 @@ h1.title{
 
 p{
     text-align: justify;
+    text-indent: 10px;
     color: #304269;
 }
 
