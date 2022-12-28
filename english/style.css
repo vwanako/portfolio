@@ -17,6 +17,7 @@ main{
     margin-top: 30px;
     border-radius: 20px;
     box-shadow: 7px 7px 4px #b1d4f3;
+    border: 2px solid #B7F29B;
 }
 
 nav{
@@ -30,7 +31,6 @@ nav{
 }
 
 nav ul{
-    position: relative;
     list-style: none;
     position: relative;
     width: 100%;
@@ -59,6 +59,8 @@ h2{
 
 h2{
     font-size: clamp(5px,3vw,25px);
+    margin-bottom: 0;
+    margin-top: 30px;
 }
 
 h1.title{
@@ -73,25 +75,53 @@ h1.title{
 }
 
 p{
+    margin-top: 0;
+    margin-bottom: 5px;
     text-align: justify;
     text-indent: 10px;
     color: #304269;
 }
 
 ul{
+    margin-top: 0;
     color: #3d414d;
     list-style-image: url("/images/rocket-org.png");
 }
-a:visited,
+a,
 strong{
     color:#1a63a8;
 }
 a:hover,
 a.current{
     color: #B7F29B;
+    text-decoration: underline;
 }
 
 abbr{
     color: #eb9d7a;
     text-decoration: underline;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #51AFD5;
+    width: 100%;
+    text-indent: 0px;
+    margin-left: 0px;
+}
+
+.footer-text{
+    position: relative;
+    color: #B7F29B;
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.footer-text a{
+    color: #B7F29B;
 }
